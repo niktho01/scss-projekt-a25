@@ -8,8 +8,6 @@ font-family: partial.$font;
 background-color: partial.$bg-color;
 
 }
-*//Skip to main content code snippet fra:https://www.a11y-collective.com/blog/skip-to-main-content/ */
- 
 .screen-reader-text {
     position: absolute; //Positions the link absolutely on the page, allowing it to be placed anywhere.
     left: -9999px; //Moves the link far off-screen to the left, making it invisible to sighted users.
@@ -48,3 +46,7 @@ img{
     grid-template-columns: repeat(5, 1fr);
     grid-autorows:minmix (50px, auto);
 }
+
+.header {grid-column:1/6;
+background-color: partial.$nav-color;
+border-bottom: 4px solid partial$primary-color;}
