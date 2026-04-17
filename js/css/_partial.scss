@@ -1,27 +1,15 @@
 $bg-color: #f0f0f0;
-$nav-color:#fff;
+$nav-color: #fff;
 $footer-color: #0a1f1c;
 $primary-color: #388071;
 $secondary-color: #133833;
-$text-color:#333;
-$font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$text-color: #333;
+$font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* Mixin */
 
-/*mixin*/
-
-@mixin
-flex()
-{
-}$bg-color: #f0f0f0;
-$nav-color:#fff;
-$footer-color: #0a1f1c;
-$primary-color: #388071;
-$secondary-color: #133833;
-$text-color:#333;
-$font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-/*mixin*/
-
-@mixin
-flex()
-{
+@mixin flex($justify: center, $align: center, $direction: row) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction; // Husk at bruge direction variabel her!
 }
