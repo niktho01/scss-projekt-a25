@@ -21,7 +21,7 @@ background-color: partial.$bg-color;
   .screen-reader-text:focus {
     left: 50%; // When the link receives focus (e.g., when a keyboard user tabs to it), it is repositioned horizontally to the centre of the screen.
     transform: translateX(-50%); //This centres the link horizontally by moving it back to the left by 50% of its own width.
-    opacity: 1; //The link's opacity is set to 1, making it fully visible.
+    opacity: 1;
   }
 /*nesting*/
 p{
